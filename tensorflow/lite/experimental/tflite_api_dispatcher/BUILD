@@ -1,7 +1,7 @@
 load("//tensorflow/lite:build_def.bzl", "if_tflite_experimental_runtime", "tflite_experimental_runtime_linkopts")
 
 package(
-    default_visibility = ["//tensorflow:internal"],
+    default_visibility = ["//visibility:public"],
     licenses = ["notice"],  # Apache 2.0
 )
 

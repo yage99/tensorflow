@@ -38,7 +38,6 @@ cc_library(
 cc_library(
     name = "xnnpack_delegate_hdrs_only",
     hdrs = ["xnnpack_delegate.h"],
-    visibility = ["//tensorflow/lite:__subpackages__"],
     deps = [
         "//tensorflow/lite/c:common",
     ],
